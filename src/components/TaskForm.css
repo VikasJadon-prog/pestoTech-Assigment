@@ -1,0 +1,109 @@
+.task-form-container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #f9004d;
+  border-radius: 10px;
+}
+
+.form-heading {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control{
+  background-color:transparent !important;
+  width: 100%;
+  color: rgba(198, 201, 216, .75) !important;
+  padding: 13px;
+  border: 2px solid rgba(198, 201, 216, .75) !important;
+  border-radius: 6px !important;
+}
+
+.form-control:focus {
+  color: rgba(198, 201, 216, .75)!important;
+  border: 2px solid rgba(198, 201, 216, .75) !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.form-control::placeholder {
+  color: rgba(198, 201, 216, .75)!important;
+}
+
+.description-input {
+  height: 50px;
+}
+
+.butnn {
+  margin-top: 15px;
+  width: 80%;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #f9004d;
+  background: #f9004d;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.butnn:hover {
+  background-color: transparent;
+  color: #f9004d;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+  transform: translateY(-5px);
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(198, 201, 216, .75);
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  width: 100%;
+  color: rgba(198, 201, 216, .75);
+  padding: 13px;
+  border: 2px solid rgba(198, 201, 216, .75);
+  border-radius: 6px;
+}
+
+.custom-select select option {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+.custom-select select option:hover {
+  background-color: #333;
+  color: #fff;
+}
